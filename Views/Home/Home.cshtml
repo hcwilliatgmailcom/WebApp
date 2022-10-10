@@ -1,0 +1,25 @@
+@model IEnumerable<string>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Home</h1>
+
+ 
+<table class="table">
+
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+
+                <td>
+
+                    <a asp-action="Index" asp-route-name="@item">@item</a>
+
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
