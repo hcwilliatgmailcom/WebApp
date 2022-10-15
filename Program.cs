@@ -1,16 +1,18 @@
-using Microsoft.EntityFrameworkCore.Design;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Design;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddSingleton<IDesignTimeServices, App.Models.MysqlEntityFrameworkDesignTimeServices>();
+
+ 
+
+builder.Services.AddDbContext<App.Data.AppDbContext>(
+        context => context.UseMySQL(builder.Configuration.GetConnectionString("MySql"))
+    );
+
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-
-builder.Services.AddSingleton<IDesignTimeServices, WebApp.Models.MysqlEntityFrameworkDesignTimeServices>();
-
-builder.Services.AddDbContext<WebApp.Data.d03adb48Context>(
-        context => context.UseMySQL("server=hcwilli.at;database=d03adb48;user=d03adb48;password=k8J3CMGz7sL68rJW")
-    );
 
 var app = builder.Build();
 
@@ -31,6 +33,6 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Home}/{name?}/{id?}");
+    pattern: "{controller=Entity}/{action=Index}/{id?}");
 
 app.Run();

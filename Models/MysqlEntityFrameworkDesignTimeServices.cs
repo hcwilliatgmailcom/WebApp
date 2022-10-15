@@ -1,8 +1,8 @@
-namespace WebApp.Models;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore.Design;
-using System.Diagnostics;
 using MySql.EntityFrameworkCore.Extensions;
+
+namespace App.Models;
+
    public class MysqlEntityFrameworkDesignTimeServices : IDesignTimeServices
 {
     public void ConfigureDesignTimeServices(IServiceCollection serviceCollection)

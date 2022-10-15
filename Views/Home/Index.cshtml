@@ -1,36 +1,8 @@
-@using System.Data
-@model System.Data.DataSet
-@{
-    ViewData["Title"] = @ViewBag.name;
+﻿@{
+    ViewData["Title"] = "Home Page";
 }
-<h1>@ViewBag.name</h1>
-@foreach (DataTable table in Model.Tables)
-{
-<table class="table">
-    <thead>
-         <tr>
-        @foreach (DataColumn column in table.Columns)
-        {
-            <th>
-                @column.ColumnName
-            </th>
-        }
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (System.Data.DataRow row in table.Rows)
-        { 
-            <tr>
-            @for  (int i = 0; i < row.ItemArray.Length; i++)
-            {
-                @if (row.Table.Columns[i].ColumnName==row.Table.Columns[i].ColumnName.ToUpper()){
-                    <td><a asp-action="Item" asp-route-name="@row.Table.Columns[i].ColumnName" asp-route-id="@row.ItemArray[i]">@row.Table.Columns[i].ColumnName</a></td>
-                } else {
-                    <td>@row.ItemArray[i]</td> 
-                }
-            }    
-             </tr>
-        }      
-    </tbody>
-</table>
-}
+
+ <a asp-controller="Email" asp-action="Index">Email</a>
+ <a asp-controller="Person" asp-action="Index">Person</a>
+ <a asp-controller="EmailPerson" asp-action="Index">EmailPerson</a>
+ 
