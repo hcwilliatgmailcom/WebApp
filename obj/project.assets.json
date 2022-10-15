@@ -10088,11 +10088,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\App\\App.csproj",
+      "projectUniqueName": "C:\\Users\\hcwil\\Documents\\WebApp\\App.csproj",
       "projectName": "App",
-      "projectPath": "D:\\App\\App.csproj",
+      "projectPath": "C:\\Users\\hcwil\\Documents\\WebApp\\App.csproj",
       "packagesPath": "C:\\Users\\hcwil\\.nuget\\packages\\",
-      "outputPath": "D:\\App\\obj\\",
+      "outputPath": "C:\\Users\\hcwil\\Documents\\WebApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\hcwil\\AppData\\Roaming\\NuGet\\NuGet.Config",
