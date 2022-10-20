@@ -15,58 +15,6 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\hcwil\Documents\WebApp
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/hcwil/Documents/WebApp/Views/EmailPerson/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1haWxQZXJzb25cQ3JlYXRlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/hcwil/Documents/WebApp/Views/EmailPerson/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1haWxQZXJzb25cRGVsZXRlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/hcwil/Documents/WebApp/Views/EmailPerson/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1haWxQZXJzb25cRGV0YWlscy5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/hcwil/Documents/WebApp/Views/EmailPerson/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1haWxQZXJzb25cRWRpdC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/hcwil/Documents/WebApp/Views/EmailPerson/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1haWxQZXJzb25cSW5kZXguY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/hcwil/Documents/WebApp/Views/Email/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1haWxcQ3JlYXRlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/hcwil/Documents/WebApp/Views/Email/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1haWxcRGVsZXRlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/hcwil/Documents/WebApp/Views/Email/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1haWxcRGV0YWlscy5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/hcwil/Documents/WebApp/Views/Email/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1haWxcRWRpdC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/hcwil/Documents/WebApp/Views/Email/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1haWxcSW5kZXguY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/hcwil/Documents/WebApp/Views/Entity/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW50aXR5XENyZWF0ZS5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/hcwil/Documents/WebApp/Views/Entity/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW50aXR5XERlbGV0ZS5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/hcwil/Documents/WebApp/Views/Entity/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW50aXR5XEluZGV4LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/hcwil/Documents/WebApp/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -75,28 +23,12 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hcwil/Documents/WebApp/Views/Person/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uXENyZWF0ZS5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/hcwil/Documents/WebApp/Views/Person/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uXERlbGV0ZS5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/hcwil/Documents/WebApp/Views/Person/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uXERldGFpbHMuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/hcwil/Documents/WebApp/Views/Person/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uXEVkaXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/hcwil/Documents/WebApp/Views/Person/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uXEluZGV4LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/hcwil/Documents/WebApp/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hcwil/Documents/WebApp/Views/Shared/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/hcwil/Documents/WebApp/Views/Shared/_ValidationScriptsPartial.cshtml]

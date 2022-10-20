@@ -7,9 +7,10 @@ builder.Services.AddSingleton<IDesignTimeServices, App.Models.MysqlEntityFramewo
 
  
 
-builder.Services.AddDbContext<App.Data.AppDbContext>(
-        context => context.UseMySQL(builder.Configuration.GetConnectionString("MySql"))
-    );
+builder.Services.AddDbContext<App.Schema.SchemaContext>(
+        context => context.UseSqlServer("Server=localhost;Database=Northwind;Trusted_Connection=True;TrustServerCertificate=True;"));
+
+ 
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
@@ -33,6 +34,6 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Entity}/{action=Index}/{id?}");
+    pattern: "{controller=Home}/{action=Index}/{id?}");
 
 app.Run();

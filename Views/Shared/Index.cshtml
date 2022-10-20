@@ -1,0 +1,37 @@
+﻿@using System.Reflection
+@model IEnumerable<Object>
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<table>
+    @foreach (var item in Model)
+    {
+        <tr>
+
+            @foreach (PropertyInfo prop in item.GetType().GetProperties())
+            {
+                var type = Nullable.GetUnderlyingType(prop.PropertyType) ?? prop.PropertyType;
+                try
+                {
+                    if (type == typeof(String))
+                    {
+                        <td>@prop.GetValue(item, null).ToString()</td>
+                    }
+                    else
+                    {
+                        <td>@prop.GetValue(item, null).ToString()</td>
+                    }
+
+                }
+                catch (Exception ex)
+                {
+                    <td>@ex.Message</td>
+                }
+
+            }
+        </tr>
+    }
+
+</table>
