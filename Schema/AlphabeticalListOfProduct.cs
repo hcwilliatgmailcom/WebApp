@@ -1,29 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 
 namespace App.Schema;
-
-public class AlphabeticalListOfProductController : Controller
-{
-    private readonly ILogger<AlphabeticalListOfProductController> _logger;
-
-    private readonly SchemaContext _context;
-
-    public AlphabeticalListOfProductController(ILogger<AlphabeticalListOfProductController> logger,SchemaContext context)
-    {
-        _logger = logger;
-        _context=context;
-    }
-
-    public IActionResult Index()
-    {
-
-        return View(_context.AlphabeticalListOfProducts.ToList());
-    }
-    
-}
 
 public partial class AlphabeticalListOfProduct
 {

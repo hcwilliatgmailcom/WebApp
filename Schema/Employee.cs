@@ -1,29 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 
 namespace App.Schema;
-
-public class EmployeeController : Controller
-{
-    private readonly ILogger<EmployeeController> _logger;
-
-    private readonly SchemaContext _context;
-
-    public EmployeeController(ILogger<EmployeeController> logger,SchemaContext context)
-    {
-        _logger = logger;
-        _context=context;
-    }
-
-    public IActionResult Index()
-    {
-
-        return View(_context.Employees.ToList());
-    }
-    
-}
 
 public partial class Employee
 {

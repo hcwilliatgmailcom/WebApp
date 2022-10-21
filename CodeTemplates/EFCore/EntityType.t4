@@ -27,9 +27,7 @@
     var usings = new List<string>
     {
         "System",
-        "System.Collections.Generic",
-        "Microsoft.AspNetCore.Mvc",
-        "Microsoft.EntityFrameworkCore"
+        "System.Collections.Generic"
 
     };
 
@@ -44,26 +42,6 @@
     {
 #>
 namespace <#= NamespaceHint #>;
-
-public class <#= EntityType.Name #>Controller : Controller
-{
-    private readonly ILogger<<#= EntityType.Name #>Controller> _logger;
-
-    private readonly SchemaContext _context;
-
-    public <#= EntityType.Name #>Controller(ILogger<<#= EntityType.Name #>Controller> logger,SchemaContext context)
-    {
-        _logger = logger;
-        _context=context;
-    }
-
-    public IActionResult Index()
-    {
-
-        return View(_context.<#= EntityType.GetDbSetName() #>.ToList());
-    }
-    
-}
 
 <#
     }

@@ -15,6 +15,10 @@ dotnet ef dbcontext scaffold "server=hcwilli.at;database=d03adb48;user=d03adb48;
 select concat('create view `ZZZ_',table_name,'` as select * from information_schema.`',table_name,'`;') FROM `INFORMATION_SCHEMA`.`TABLES` where table_schema='information_schema'
 dotnet ef dbcontext scaffold "Server=localhost;Database=Northwind;Trusted_Connection=True;TrustServerCertificate=True;" Microsoft.EntityFrameworkCore.SqlServer  --output-dir Schema --context SchemaContext --context-dir Schema -f
 https://github.com/dotnet/efcore/tree/main/src/EFCore.Design/Scaffolding/Internal
+https://github.com/telerik/scaffold-templates-core/blob/master/Templates/ViewGenerator/Create.cshtml
+
+otnet ef dbcontext scaffold "Server=localhost;Database=Northwind;Trusted_Connection=True;TrustServerCertificate=True;" Microsoft.EntityFrameworkCore.SqlServer  --output-dir Schema --context SchemaContext --context-dir Schema -f 
+dotnet-aspnet-codegenerator  controller  -m Product -dc SchemaContext  --referenceScriptLibraries --useDefaultLayout --controllerName ProductController --relativeFolderPath Controllers -f
 
 CREATE 
     ALGORITHM = UNDEFINED 

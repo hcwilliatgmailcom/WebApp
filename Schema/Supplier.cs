@@ -1,29 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 
 namespace App.Schema;
-
-public class SupplierController : Controller
-{
-    private readonly ILogger<SupplierController> _logger;
-
-    private readonly SchemaContext _context;
-
-    public SupplierController(ILogger<SupplierController> logger,SchemaContext context)
-    {
-        _logger = logger;
-        _context=context;
-    }
-
-    public IActionResult Index()
-    {
-
-        return View(_context.Suppliers.ToList());
-    }
-    
-}
 
 public partial class Supplier
 {

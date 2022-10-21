@@ -1,29 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 
 namespace App.Schema;
-
-public class ProductController : Controller
-{
-    private readonly ILogger<ProductController> _logger;
-
-    private readonly SchemaContext _context;
-
-    public ProductController(ILogger<ProductController> logger,SchemaContext context)
-    {
-        _logger = logger;
-        _context=context;
-    }
-
-    public IActionResult Index()
-    {
-
-        return View(_context.Products.ToList());
-    }
-    
-}
 
 public partial class Product
 {

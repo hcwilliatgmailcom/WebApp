@@ -1,29 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 
 namespace App.Schema;
-
-public class OrdersQryController : Controller
-{
-    private readonly ILogger<OrdersQryController> _logger;
-
-    private readonly SchemaContext _context;
-
-    public OrdersQryController(ILogger<OrdersQryController> logger,SchemaContext context)
-    {
-        _logger = logger;
-        _context=context;
-    }
-
-    public IActionResult Index()
-    {
-
-        return View(_context.OrdersQries.ToList());
-    }
-    
-}
 
 public partial class OrdersQry
 {

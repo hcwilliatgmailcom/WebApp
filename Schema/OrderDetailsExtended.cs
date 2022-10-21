@@ -1,29 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 
 namespace App.Schema;
-
-public class OrderDetailsExtendedController : Controller
-{
-    private readonly ILogger<OrderDetailsExtendedController> _logger;
-
-    private readonly SchemaContext _context;
-
-    public OrderDetailsExtendedController(ILogger<OrderDetailsExtendedController> logger,SchemaContext context)
-    {
-        _logger = logger;
-        _context=context;
-    }
-
-    public IActionResult Index()
-    {
-
-        return View(_context.OrderDetailsExtendeds.ToList());
-    }
-    
-}
 
 public partial class OrderDetailsExtended
 {

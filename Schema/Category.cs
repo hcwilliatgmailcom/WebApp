@@ -1,29 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 
 namespace App.Schema;
-
-public class CategoryController : Controller
-{
-    private readonly ILogger<CategoryController> _logger;
-
-    private readonly SchemaContext _context;
-
-    public CategoryController(ILogger<CategoryController> logger,SchemaContext context)
-    {
-        _logger = logger;
-        _context=context;
-    }
-
-    public IActionResult Index()
-    {
-
-        return View(_context.Categories.ToList());
-    }
-    
-}
 
 public partial class Category
 {

@@ -15,12 +15,328 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\hcwil\Documents\WebApp
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/hcwil/Documents/WebApp/Templates/ControllerGenerator/ApiControllerWithActions.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXENvbnRyb2xsZXJHZW5lcmF0b3JcQXBpQ29udHJvbGxlcldpdGhBY3Rpb25zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hcwil/Documents/WebApp/Templates/ControllerGenerator/ApiControllerWithContext.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXENvbnRyb2xsZXJHZW5lcmF0b3JcQXBpQ29udHJvbGxlcldpdGhDb250ZXh0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hcwil/Documents/WebApp/Templates/ControllerGenerator/ApiEmptyController.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXENvbnRyb2xsZXJHZW5lcmF0b3JcQXBpRW1wdHlDb250cm9sbGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hcwil/Documents/WebApp/Templates/ControllerGenerator/ControllerWithActions.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXENvbnRyb2xsZXJHZW5lcmF0b3JcQ29udHJvbGxlcldpdGhBY3Rpb25zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hcwil/Documents/WebApp/Templates/ControllerGenerator/EmptyController.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXENvbnRyb2xsZXJHZW5lcmF0b3JcRW1wdHlDb250cm9sbGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hcwil/Documents/WebApp/Templates/ControllerGenerator/MvcControllerWithContext.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXENvbnRyb2xsZXJHZW5lcmF0b3JcTXZjQ29udHJvbGxlcldpdGhDb250ZXh0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hcwil/Documents/WebApp/Templates/MinimalApi/MinimalApi.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXE1pbmltYWxBcGlcTWluaW1hbEFwaS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hcwil/Documents/WebApp/Templates/MinimalApi/MinimalApiEf.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXE1pbmltYWxBcGlcTWluaW1hbEFwaUVmLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hcwil/Documents/WebApp/Templates/MinimalApi/MinimalApiEfNoClass.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXE1pbmltYWxBcGlcTWluaW1hbEFwaUVmTm9DbGFzcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hcwil/Documents/WebApp/Templates/MinimalApi/MinimalApiNoClass.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXE1pbmltYWxBcGlcTWluaW1hbEFwaU5vQ2xhc3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hcwil/Documents/WebApp/Templates/MvcLayout/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXE12Y0xheW91dFxFcnJvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hcwil/Documents/WebApp/Templates/MvcLayout/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXE12Y0xheW91dFxfTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hcwil/Documents/WebApp/Templates/RazorPageGenerator/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXFJhem9yUGFnZUdlbmVyYXRvclxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hcwil/Documents/WebApp/Templates/RazorPageGenerator/CreatePageModel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXFJhem9yUGFnZUdlbmVyYXRvclxDcmVhdGVQYWdlTW9kZWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hcwil/Documents/WebApp/Templates/RazorPageGenerator/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXFJhem9yUGFnZUdlbmVyYXRvclxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hcwil/Documents/WebApp/Templates/RazorPageGenerator/DeletePageModel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXFJhem9yUGFnZUdlbmVyYXRvclxEZWxldGVQYWdlTW9kZWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hcwil/Documents/WebApp/Templates/RazorPageGenerator/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXFJhem9yUGFnZUdlbmVyYXRvclxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hcwil/Documents/WebApp/Templates/RazorPageGenerator/DetailsPageModel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXFJhem9yUGFnZUdlbmVyYXRvclxEZXRhaWxzUGFnZU1vZGVsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hcwil/Documents/WebApp/Templates/RazorPageGenerator/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXFJhem9yUGFnZUdlbmVyYXRvclxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hcwil/Documents/WebApp/Templates/RazorPageGenerator/EditPageModel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXFJhem9yUGFnZUdlbmVyYXRvclxFZGl0UGFnZU1vZGVsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hcwil/Documents/WebApp/Templates/RazorPageGenerator/Empty.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXFJhem9yUGFnZUdlbmVyYXRvclxFbXB0eS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hcwil/Documents/WebApp/Templates/RazorPageGenerator/EmptyPageModel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXFJhem9yUGFnZUdlbmVyYXRvclxFbXB0eVBhZ2VNb2RlbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hcwil/Documents/WebApp/Templates/RazorPageGenerator/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXFJhem9yUGFnZUdlbmVyYXRvclxMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hcwil/Documents/WebApp/Templates/RazorPageGenerator/ListPageModel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXFJhem9yUGFnZUdlbmVyYXRvclxMaXN0UGFnZU1vZGVsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hcwil/Documents/WebApp/Templates/RazorPageGenerator/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXFJhem9yUGFnZUdlbmVyYXRvclxfVmFsaWRhdGlvblNjcmlwdHNQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hcwil/Documents/WebApp/Templates/RazorPageGenerator_Versioned/Bootstrap3/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXFJhem9yUGFnZUdlbmVyYXRvcl9WZXJzaW9uZWRcQm9vdHN0cmFwM1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hcwil/Documents/WebApp/Templates/RazorPageGenerator_Versioned/Bootstrap3/CreatePageModel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXFJhem9yUGFnZUdlbmVyYXRvcl9WZXJzaW9uZWRcQm9vdHN0cmFwM1xDcmVhdGVQYWdlTW9kZWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hcwil/Documents/WebApp/Templates/RazorPageGenerator_Versioned/Bootstrap3/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXFJhem9yUGFnZUdlbmVyYXRvcl9WZXJzaW9uZWRcQm9vdHN0cmFwM1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hcwil/Documents/WebApp/Templates/RazorPageGenerator_Versioned/Bootstrap3/DeletePageModel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXFJhem9yUGFnZUdlbmVyYXRvcl9WZXJzaW9uZWRcQm9vdHN0cmFwM1xEZWxldGVQYWdlTW9kZWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hcwil/Documents/WebApp/Templates/RazorPageGenerator_Versioned/Bootstrap3/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXFJhem9yUGFnZUdlbmVyYXRvcl9WZXJzaW9uZWRcQm9vdHN0cmFwM1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hcwil/Documents/WebApp/Templates/RazorPageGenerator_Versioned/Bootstrap3/DetailsPageModel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXFJhem9yUGFnZUdlbmVyYXRvcl9WZXJzaW9uZWRcQm9vdHN0cmFwM1xEZXRhaWxzUGFnZU1vZGVsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hcwil/Documents/WebApp/Templates/RazorPageGenerator_Versioned/Bootstrap3/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXFJhem9yUGFnZUdlbmVyYXRvcl9WZXJzaW9uZWRcQm9vdHN0cmFwM1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hcwil/Documents/WebApp/Templates/RazorPageGenerator_Versioned/Bootstrap3/EditPageModel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXFJhem9yUGFnZUdlbmVyYXRvcl9WZXJzaW9uZWRcQm9vdHN0cmFwM1xFZGl0UGFnZU1vZGVsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hcwil/Documents/WebApp/Templates/RazorPageGenerator_Versioned/Bootstrap3/Empty.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXFJhem9yUGFnZUdlbmVyYXRvcl9WZXJzaW9uZWRcQm9vdHN0cmFwM1xFbXB0eS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hcwil/Documents/WebApp/Templates/RazorPageGenerator_Versioned/Bootstrap3/EmptyPageModel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXFJhem9yUGFnZUdlbmVyYXRvcl9WZXJzaW9uZWRcQm9vdHN0cmFwM1xFbXB0eVBhZ2VNb2RlbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hcwil/Documents/WebApp/Templates/RazorPageGenerator_Versioned/Bootstrap3/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXFJhem9yUGFnZUdlbmVyYXRvcl9WZXJzaW9uZWRcQm9vdHN0cmFwM1xMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hcwil/Documents/WebApp/Templates/RazorPageGenerator_Versioned/Bootstrap3/ListPageModel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXFJhem9yUGFnZUdlbmVyYXRvcl9WZXJzaW9uZWRcQm9vdHN0cmFwM1xMaXN0UGFnZU1vZGVsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hcwil/Documents/WebApp/Templates/RazorPageGenerator_Versioned/Bootstrap3/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXFJhem9yUGFnZUdlbmVyYXRvcl9WZXJzaW9uZWRcQm9vdHN0cmFwM1xfVmFsaWRhdGlvblNjcmlwdHNQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hcwil/Documents/WebApp/Templates/RazorPageGenerator_Versioned/Bootstrap4/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXFJhem9yUGFnZUdlbmVyYXRvcl9WZXJzaW9uZWRcQm9vdHN0cmFwNFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hcwil/Documents/WebApp/Templates/RazorPageGenerator_Versioned/Bootstrap4/CreatePageModel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXFJhem9yUGFnZUdlbmVyYXRvcl9WZXJzaW9uZWRcQm9vdHN0cmFwNFxDcmVhdGVQYWdlTW9kZWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hcwil/Documents/WebApp/Templates/RazorPageGenerator_Versioned/Bootstrap4/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXFJhem9yUGFnZUdlbmVyYXRvcl9WZXJzaW9uZWRcQm9vdHN0cmFwNFxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hcwil/Documents/WebApp/Templates/RazorPageGenerator_Versioned/Bootstrap4/DeletePageModel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXFJhem9yUGFnZUdlbmVyYXRvcl9WZXJzaW9uZWRcQm9vdHN0cmFwNFxEZWxldGVQYWdlTW9kZWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hcwil/Documents/WebApp/Templates/RazorPageGenerator_Versioned/Bootstrap4/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXFJhem9yUGFnZUdlbmVyYXRvcl9WZXJzaW9uZWRcQm9vdHN0cmFwNFxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hcwil/Documents/WebApp/Templates/RazorPageGenerator_Versioned/Bootstrap4/DetailsPageModel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXFJhem9yUGFnZUdlbmVyYXRvcl9WZXJzaW9uZWRcQm9vdHN0cmFwNFxEZXRhaWxzUGFnZU1vZGVsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hcwil/Documents/WebApp/Templates/RazorPageGenerator_Versioned/Bootstrap4/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXFJhem9yUGFnZUdlbmVyYXRvcl9WZXJzaW9uZWRcQm9vdHN0cmFwNFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hcwil/Documents/WebApp/Templates/RazorPageGenerator_Versioned/Bootstrap4/EditPageModel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXFJhem9yUGFnZUdlbmVyYXRvcl9WZXJzaW9uZWRcQm9vdHN0cmFwNFxFZGl0UGFnZU1vZGVsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hcwil/Documents/WebApp/Templates/RazorPageGenerator_Versioned/Bootstrap4/Empty.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXFJhem9yUGFnZUdlbmVyYXRvcl9WZXJzaW9uZWRcQm9vdHN0cmFwNFxFbXB0eS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hcwil/Documents/WebApp/Templates/RazorPageGenerator_Versioned/Bootstrap4/EmptyPageModel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXFJhem9yUGFnZUdlbmVyYXRvcl9WZXJzaW9uZWRcQm9vdHN0cmFwNFxFbXB0eVBhZ2VNb2RlbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hcwil/Documents/WebApp/Templates/RazorPageGenerator_Versioned/Bootstrap4/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXFJhem9yUGFnZUdlbmVyYXRvcl9WZXJzaW9uZWRcQm9vdHN0cmFwNFxMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hcwil/Documents/WebApp/Templates/RazorPageGenerator_Versioned/Bootstrap4/ListPageModel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXFJhem9yUGFnZUdlbmVyYXRvcl9WZXJzaW9uZWRcQm9vdHN0cmFwNFxMaXN0UGFnZU1vZGVsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hcwil/Documents/WebApp/Templates/RazorPageGenerator_Versioned/Bootstrap4/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXFJhem9yUGFnZUdlbmVyYXRvcl9WZXJzaW9uZWRcQm9vdHN0cmFwNFxfVmFsaWRhdGlvblNjcmlwdHNQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hcwil/Documents/WebApp/Templates/Startup/ReadMe.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXFN0YXJ0dXBcUmVhZE1lLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hcwil/Documents/WebApp/Templates/Startup/Startup.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXFN0YXJ0dXBcU3RhcnR1cC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hcwil/Documents/WebApp/Templates/ViewGenerator/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXFZpZXdHZW5lcmF0b3JcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hcwil/Documents/WebApp/Templates/ViewGenerator/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXFZpZXdHZW5lcmF0b3JcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hcwil/Documents/WebApp/Templates/ViewGenerator/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXFZpZXdHZW5lcmF0b3JcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hcwil/Documents/WebApp/Templates/ViewGenerator/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXFZpZXdHZW5lcmF0b3JcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hcwil/Documents/WebApp/Templates/ViewGenerator/Empty.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXFZpZXdHZW5lcmF0b3JcRW1wdHkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hcwil/Documents/WebApp/Templates/ViewGenerator/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXFZpZXdHZW5lcmF0b3JcTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hcwil/Documents/WebApp/Templates/ViewGenerator/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXFZpZXdHZW5lcmF0b3JcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hcwil/Documents/WebApp/Templates/ViewGenerator_Versioned/Bootstrap3/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXFZpZXdHZW5lcmF0b3JfVmVyc2lvbmVkXEJvb3RzdHJhcDNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hcwil/Documents/WebApp/Templates/ViewGenerator_Versioned/Bootstrap3/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXFZpZXdHZW5lcmF0b3JfVmVyc2lvbmVkXEJvb3RzdHJhcDNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hcwil/Documents/WebApp/Templates/ViewGenerator_Versioned/Bootstrap3/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXFZpZXdHZW5lcmF0b3JfVmVyc2lvbmVkXEJvb3RzdHJhcDNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hcwil/Documents/WebApp/Templates/ViewGenerator_Versioned/Bootstrap3/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXFZpZXdHZW5lcmF0b3JfVmVyc2lvbmVkXEJvb3RzdHJhcDNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hcwil/Documents/WebApp/Templates/ViewGenerator_Versioned/Bootstrap3/Empty.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXFZpZXdHZW5lcmF0b3JfVmVyc2lvbmVkXEJvb3RzdHJhcDNcRW1wdHkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hcwil/Documents/WebApp/Templates/ViewGenerator_Versioned/Bootstrap3/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXFZpZXdHZW5lcmF0b3JfVmVyc2lvbmVkXEJvb3RzdHJhcDNcTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hcwil/Documents/WebApp/Templates/ViewGenerator_Versioned/Bootstrap3/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXFZpZXdHZW5lcmF0b3JfVmVyc2lvbmVkXEJvb3RzdHJhcDNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hcwil/Documents/WebApp/Templates/ViewGenerator_Versioned/Bootstrap4/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXFZpZXdHZW5lcmF0b3JfVmVyc2lvbmVkXEJvb3RzdHJhcDRcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hcwil/Documents/WebApp/Templates/ViewGenerator_Versioned/Bootstrap4/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXFZpZXdHZW5lcmF0b3JfVmVyc2lvbmVkXEJvb3RzdHJhcDRcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hcwil/Documents/WebApp/Templates/ViewGenerator_Versioned/Bootstrap4/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXFZpZXdHZW5lcmF0b3JfVmVyc2lvbmVkXEJvb3RzdHJhcDRcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hcwil/Documents/WebApp/Templates/ViewGenerator_Versioned/Bootstrap4/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXFZpZXdHZW5lcmF0b3JfVmVyc2lvbmVkXEJvb3RzdHJhcDRcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hcwil/Documents/WebApp/Templates/ViewGenerator_Versioned/Bootstrap4/Empty.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXFZpZXdHZW5lcmF0b3JfVmVyc2lvbmVkXEJvb3RzdHJhcDRcRW1wdHkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hcwil/Documents/WebApp/Templates/ViewGenerator_Versioned/Bootstrap4/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXFZpZXdHZW5lcmF0b3JfVmVyc2lvbmVkXEJvb3RzdHJhcDRcTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hcwil/Documents/WebApp/Templates/ViewGenerator_Versioned/Bootstrap4/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXFZpZXdHZW5lcmF0b3JfVmVyc2lvbmVkXEJvb3RzdHJhcDRcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/hcwil/Documents/WebApp/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/hcwil/Documents/WebApp/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hcwil/Documents/WebApp/Views/Product/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hcwil/Documents/WebApp/Views/Product/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hcwil/Documents/WebApp/Views/Product/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hcwil/Documents/WebApp/Views/Product/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hcwil/Documents/WebApp/Views/Product/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/hcwil/Documents/WebApp/Views/Shared/Error.cshtml]
