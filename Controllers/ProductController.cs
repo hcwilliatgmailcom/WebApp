@@ -5,15 +5,15 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using App.Schema;
+using App.Data.hcwilli.at.d03adb48;
 
 namespace App.Controllers
 {
     public class ProductController : Controller
     {
-        private readonly SchemaContext _context;
+        private readonly d03adb48Context _context;
 
-        public ProductController(SchemaContext context)
+        public ProductController(d03adb48Context context)
         {
             _context = context;
         }
@@ -21,8 +21,9 @@ namespace App.Controllers
         // GET: Product
         public async Task<IActionResult> Index()
         {
-            var schemaContext = _context.Products.Include(p => p.Category).Include(p => p.Supplier);
-            return View(await schemaContext.ToListAsync());
+              return _context.Products != null ? 
+                          View(await _context.Products.ToListAsync()) :
+                          Problem("Entity set 'd03adb48Context.Products'  is null.");
         }
 
         // GET: Product/Details/5
@@ -34,8 +35,6 @@ namespace App.Controllers
             }
 
             var product = await _context.Products
-                .Include(p => p.Category)
-                .Include(p => p.Supplier)
                 .FirstOrDefaultAsync(m => m.ProductId == id);
             if (product == null)
             {
@@ -48,8 +47,6 @@ namespace App.Controllers
         // GET: Product/Create
         public IActionResult Create()
         {
-            ViewData["CategoryId"] = new SelectList(_context.Categories, "CategoryId", "CategoryId");
-            ViewData["SupplierId"] = new SelectList(_context.Suppliers, "SupplierId", "SupplierId");
             return View();
         }
 
@@ -66,8 +63,6 @@ namespace App.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["CategoryId"] = new SelectList(_context.Categories, "CategoryId", "CategoryId", product.CategoryId);
-            ViewData["SupplierId"] = new SelectList(_context.Suppliers, "SupplierId", "SupplierId", product.SupplierId);
             return View(product);
         }
 
@@ -84,8 +79,6 @@ namespace App.Controllers
             {
                 return NotFound();
             }
-            ViewData["CategoryId"] = new SelectList(_context.Categories, "CategoryId", "CategoryId", product.CategoryId);
-            ViewData["SupplierId"] = new SelectList(_context.Suppliers, "SupplierId", "SupplierId", product.SupplierId);
             return View(product);
         }
 
@@ -121,8 +114,6 @@ namespace App.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["CategoryId"] = new SelectList(_context.Categories, "CategoryId", "CategoryId", product.CategoryId);
-            ViewData["SupplierId"] = new SelectList(_context.Suppliers, "SupplierId", "SupplierId", product.SupplierId);
             return View(product);
         }
 
@@ -135,8 +126,6 @@ namespace App.Controllers
             }
 
             var product = await _context.Products
-                .Include(p => p.Category)
-                .Include(p => p.Supplier)
                 .FirstOrDefaultAsync(m => m.ProductId == id);
             if (product == null)
             {
@@ -153,7 +142,7 @@ namespace App.Controllers
         {
             if (_context.Products == null)
             {
-                return Problem("Entity set 'SchemaContext.Products'  is null.");
+                return Problem("Entity set 'd03adb48Context.Products'  is null.");
             }
             var product = await _context.Products.FindAsync(id);
             if (product != null)
