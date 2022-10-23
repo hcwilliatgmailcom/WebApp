@@ -76,30 +76,23 @@ namespace @Model.ControllerNamespace
 
         // GET: @routePrefix
 @{
-        @:public async Task<IActionResult> Index()
+        @:public async Task<IActionResult> Index(int id)
         @:{
-    var includeExpressions = "";
-    includeExpressions = String.Join("", relatedProperties
-        .Values
-        .Select(property => String.Format(".Include({0} => {0}.{1})", lambdaVar, property.AssociationPropertyName)));
-    if (!String.IsNullOrEmpty(includeExpressions))
-    {
-            @:var @entitySetVar = _context.@entitySetName@includeExpressions;
-            @:return View(await @(entitySetVar).ToListAsync());
-    }
-    else
-    {
-            if (@Model.NullableEnabled)
-            {
-              @:return _context.@entitySetName != null ? 
-                        @:  View(await _context.@(entitySetName).ToListAsync()) :
-                        @:  Problem("Entity set '@Model.ContextTypeName.@(entitySetName)'  is null.");
-            }
-            else 
-            {
-              @:return View(await _context.@(entitySetName).ToListAsync());
-            }
-    }
+            var query = $"var query = from q in _context.{entitySetName}\n";
+            query += String.Join("", relatedProperties
+                .Values
+                .Select(property => String.Format("\t\t\t.Include({0} => {0}.{1})\n", lambdaVar, property.AssociationPropertyName)));
+            query +="\t\t\t.Skip(15*id)\n";
+            query +="\t\t\t.Take(15)\n";
+            query +="\t\t\tselect q;\n";
+            @:@query
+
+            @:ViewBag.next=id+1;
+            @:ViewBag.previous=id==0? 0 : id-1;
+
+            @:return View(await query.ToListAsync());
+ 
+  
 }        }
 
         // GET: @routePrefix/Details/5

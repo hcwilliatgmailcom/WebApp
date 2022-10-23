@@ -1,4 +1,4 @@
-@model App.Data.hcwilli.at.d03adb48.Product
+@model App.Data.hcwilli.Northwind.Product
 
 @{
     ViewData["Title"] = "Edit";
@@ -20,12 +20,12 @@
             </div>
             <div class="form-group">
                 <label asp-for="SupplierId" class="control-label"></label>
-                <input asp-for="SupplierId" class="form-control" />
+                <select asp-for="SupplierId" class="form-control" asp-items="ViewBag.SupplierId"></select>
                 <span asp-validation-for="SupplierId" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="CategoryId" class="control-label"></label>
-                <input asp-for="CategoryId" class="form-control" />
+                <select asp-for="CategoryId" class="form-control" asp-items="ViewBag.CategoryId"></select>
                 <span asp-validation-for="CategoryId" class="text-danger"></span>
             </div>
             <div class="form-group">

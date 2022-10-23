@@ -40,6 +40,9 @@
 @:<p>
     @:<a asp-action="Create">Create New</a>
 @:</p>
+
+
+
 @:<table class="table">
     @:<thead>
         @:<tr>
@@ -106,6 +109,13 @@
     @:</tbody>
 
 @:</table>
+
+@:@@section PrevNext {
+    @:<a asp-action="Index" asp-route-id=@@ViewBag.previous>Previous</a>
+    @:<a asp-action="Index" asp-route-id=@@ViewBag.next>Next</a>
+@:}
+
+
     if(!Model.IsPartialView && !Model.IsLayoutPageSelected)
     {
         //ClearIndent();
@@ -136,4 +146,10 @@
     {
         return "IEnumerable<" + typeName + ">";
     }
+
+ 
+
 }
+
+
+

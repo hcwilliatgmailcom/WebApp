@@ -5,25 +5,32 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using App.Data.hcwilli.at.d03adb48;
+using App.Data.hcwilli.Northwind;
 
 namespace App.Controllers
 {
     public class ProductController : Controller
     {
-        private readonly d03adb48Context _context;
+        private readonly NorthwindContext _context;
 
-        public ProductController(d03adb48Context context)
+        public ProductController(NorthwindContext context)
         {
             _context = context;
         }
 
         // GET: Product
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(int id)
         {
-              return _context.Products != null ? 
-                          View(await _context.Products.ToListAsync()) :
-                          Problem("Entity set 'd03adb48Context.Products'  is null.");
+            var query = from q in _context.Products
+			.Include(p => p.Category)
+			.Include(p => p.Supplier)
+			.Skip(15*id)
+			.Take(15)
+			select q;
+
+            ViewBag.next=id+1;
+            ViewBag.previous=id==0? 0 : id-1;
+            return View(await query.ToListAsync());
         }
 
         // GET: Product/Details/5
@@ -35,6 +42,8 @@ namespace App.Controllers
             }
 
             var product = await _context.Products
+                .Include(p => p.Category)
+                .Include(p => p.Supplier)
                 .FirstOrDefaultAsync(m => m.ProductId == id);
             if (product == null)
             {
@@ -47,6 +56,8 @@ namespace App.Controllers
         // GET: Product/Create
         public IActionResult Create()
         {
+            ViewData["CategoryId"] = new SelectList(_context.Categories, "CategoryId", "CategoryId");
+            ViewData["SupplierId"] = new SelectList(_context.Suppliers, "SupplierId", "SupplierId");
             return View();
         }
 
@@ -63,6 +74,8 @@ namespace App.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
+            ViewData["CategoryId"] = new SelectList(_context.Categories, "CategoryId", "CategoryId", product.CategoryId);
+            ViewData["SupplierId"] = new SelectList(_context.Suppliers, "SupplierId", "SupplierId", product.SupplierId);
             return View(product);
         }
 
@@ -79,6 +92,8 @@ namespace App.Controllers
             {
                 return NotFound();
             }
+            ViewData["CategoryId"] = new SelectList(_context.Categories, "CategoryId", "CategoryId", product.CategoryId);
+            ViewData["SupplierId"] = new SelectList(_context.Suppliers, "SupplierId", "SupplierId", product.SupplierId);
             return View(product);
         }
 
@@ -114,6 +129,8 @@ namespace App.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
+            ViewData["CategoryId"] = new SelectList(_context.Categories, "CategoryId", "CategoryId", product.CategoryId);
+            ViewData["SupplierId"] = new SelectList(_context.Suppliers, "SupplierId", "SupplierId", product.SupplierId);
             return View(product);
         }
 
@@ -126,6 +143,8 @@ namespace App.Controllers
             }
 
             var product = await _context.Products
+                .Include(p => p.Category)
+                .Include(p => p.Supplier)
                 .FirstOrDefaultAsync(m => m.ProductId == id);
             if (product == null)
             {
@@ -142,7 +161,7 @@ namespace App.Controllers
         {
             if (_context.Products == null)
             {
-                return Problem("Entity set 'd03adb48Context.Products'  is null.");
+                return Problem("Entity set 'NorthwindContext.Products'  is null.");
             }
             var product = await _context.Products.FindAsync(id);
             if (product != null)

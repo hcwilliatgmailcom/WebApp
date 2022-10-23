@@ -1,4 +1,4 @@
-@model IEnumerable<App.Data.hcwilli.at.d03adb48.Product>
+@model IEnumerable<App.Data.hcwilli.Northwind.Product>
 
 @{
     ViewData["Title"] = "Index";
@@ -14,12 +14,6 @@
         <tr>
             <th>
                 @Html.DisplayNameFor(model => model.ProductName)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.SupplierId)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.CategoryId)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.QuantityPerUnit)
@@ -39,6 +33,12 @@
             <th>
                 @Html.DisplayNameFor(model => model.Discontinued)
             </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Category)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Supplier)
+            </th>
             <th></th>
         </tr>
     </thead>
@@ -47,12 +47,6 @@
         <tr>
             <td>
                 @Html.DisplayFor(modelItem => item.ProductName)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.SupplierId)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.CategoryId)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.QuantityPerUnit)
@@ -73,6 +67,12 @@
                 @Html.DisplayFor(modelItem => item.Discontinued)
             </td>
             <td>
+                @Html.DisplayFor(modelItem => item.Category.CategoryId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Supplier.SupplierId)
+            </td>
+            <td>
                 <a asp-action="Edit" asp-route-id="@item.ProductId">Edit</a> |
                 <a asp-action="Details" asp-route-id="@item.ProductId">Details</a> |
                 <a asp-action="Delete" asp-route-id="@item.ProductId">Delete</a>
@@ -81,3 +81,10 @@
 }
     </tbody>
 </table>
+@section PrevNext {
+    <a asp-action="Index" asp-route-id=@ViewBag.previous>Previous</a>
+    <a asp-action="Index" asp-route-id=@ViewBag.next>Next</a>
+}
+
+
+

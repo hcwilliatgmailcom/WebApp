@@ -9,6 +9,7 @@ dotnet-aspnet-codegenerator  controller  -m Product -dc NorthwindContext  --refe
 dotnet ef migrations add Start --context d03adb48Context
 dotnet ef migrations add Product --context d03adb48Context
 dotnet ef database update --context d03adb48Context
+dotnet-aspnet-codegenerator  controller  -m App.Data.hcwilli.Northwind.Product -dc NorthwindContext  --referenceScriptLibraries --useDefaultLayout --controllerName ProductController --relativeFolderPath Controllers -f 
 dotnet-aspnet-codegenerator  controller  -m App.Data.hcwilli.at.d03adb48.Product -dc d03adb48Context  --referenceScriptLibraries --useDefaultLayout --controllerName ProductController --relativeFolderPath Controllers -f
 
 https://github.com/dotnet/efcore/tree/main/src/EFCore.Design/Scaffolding/Internal
