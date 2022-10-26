@@ -37,9 +37,7 @@
 @:<body>
         //    PushIndent("    ");
     }
-@:<p>
-    @:<a asp-action="Create">Create New</a>
-@:</p>
+ 
 
 
 
@@ -110,10 +108,18 @@
 
 @:</table>
 
-@:@@section PrevNext {
-    @:<a asp-action="Index" asp-route-id=@@ViewBag.previous>Previous</a>
-    @:<a asp-action="Index" asp-route-id=@@ViewBag.next>Next</a>
+
+
+@:@@section BottomLeft {
+@:<a asp-action="Create" asp-route-id=@@ViewBag.previous class="btn btn-danger" role="button">New</a>
 @:}
+ 
+@:@@section BottomRight {
+@:<a asp-action="Index" asp-route-id=@@ViewBag.previous class="btn btn-primary" role="button">Previous</a>
+@:&nbsp;
+@:<a asp-action="Index" asp-route-id=@@ViewBag.next class="btn btn-primary" role="button">Next</a>
+@:}
+
 
 
     if(!Model.IsPartialView && !Model.IsLayoutPageSelected)
